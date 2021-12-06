@@ -34,11 +34,13 @@ executables:
       - -rtsopts
       - -with-rtsopts=-N
     dependencies:
+      - text
       - haskell-data-challange
       - bytestring
       - xlsx
       - lens
       - containers
+      - split
 
 tests:
   haskell-data-challange-test:
